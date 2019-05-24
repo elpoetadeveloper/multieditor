@@ -1,0 +1,15 @@
+.editors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #444;
+  transition: height 0.3s;
+}
+
+.editorClass {
+  display: inline-block;
+  width: 33%;
+  height: 50vh;
+  transition: height 0.3s;
+  font-size: 16;
+}
